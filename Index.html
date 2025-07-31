@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Ray of Life - Blog</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #00796b;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #004d40;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .meta {
+      color: #777;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+    }
+    h1, h2, h3 {
+      color: #00796b;
+    }
+    p {
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .featured-image {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .comments, .comment-box {
+      margin-top: 50px;
+    }
+    .comment-box input,
+    .comment-box textarea,
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+    .comment-box button,
+    form button {
+      background-color: #00796b;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .comment-box button:hover,
+    form button:hover {
+      background-color: #005d4f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Ray of Life</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#">All Posts</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1500&q=80" alt="Sunlight shining through clouds" class="featured-image">
+
+    <div class="meta">By Antiri Emmanuel · July 30, 2025</div>
+
+    <p>Life, in its purest form, is unpredictable. There are moments when darkness clouds our vision, and hope seems like a distant memory. But even in the depths of despair, there’s always a glimmer — a ray that pierces through.</p>
+    <p>That glimmer is the Ray of Life. It's not always loud or obvious. Sometimes it's just a whisper — a kind word, a stranger's smile, or the resilience you didn’t know you had. But it's there, quietly urging you to keep going.</p>
+    <p>The Ray of Life reminds us that hardship is not the end. It's part of a greater story — one of growth, faith, and rediscovery. When the world feels heavy, look inward. Within you is a light that refuses to die.</p>
+    <p>Let this be your reminder: no matter how dark it gets, the light will return. And when it does, it shines even brighter through those who dared to keep believing.</p>
+
+    <div class="comments">
+      <h3>Leave a Comment</h3>
+      <div class="comment-box">
+        <input type="text" placeholder="Your name" />
+        <input type="email" placeholder="Your email" />
+        <textarea rows="5" placeholder="Your comment..."></textarea>
+        <button type="submit">Post Comment</button>
+      </div>
+    </div>
+
+    <section id="about" style="margin-top: 60px;">
+      <h2>About Me</h2>
+      <p>Hi, I'm Antiri Emmanuel — a passionate writer and creative from Ghana. I started this blog, <strong>The Ray of Life</strong>, to share thoughtful reflections that encourage, uplift, and inspire.</p>
+      <p>This blog explores themes like personal growth, mindset, creativity, and everyday wisdom. I believe we all carry rays of light within us, and my goal is to help you discover yours through stories and reflections.</p>
+      <p>Thanks for reading and being part of this journey. Let's continue to grow, reflect, and shine — together.</p>
+    </section>
+
+    <section id="contact" style="margin-top: 60px;">
+      <h2>Contact Me</h2>
+      <p>If you’d like to reach out, share your thoughts, or collaborate, please fill out the form below.</p>
+      <form action="https://formspree.io/f/mdkddlqe" method="POST">
+        <input type="hidden" name="_next" value="thankyou.html">
+
+        <label for="name">Name:</label><br />
+        <input type="text" name="name" id="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" name="email" id="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea name="message" id="message" rows="5" required></textarea><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p><strong>Email:</strong> <a href="mailto:oemma369900@gmail.com">oemma369900@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+233592288543">059 228 8543</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 The Ray of Life Blog. All rights reserved.
+  </footer>
+
+</body>
+</html>
